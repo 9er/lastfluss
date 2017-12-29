@@ -1,0 +1,14 @@
+aggregation:
+  period: 60
+database:
+  host: localhost
+  port: 5432
+  name: foo
+  user: bar
+  pass: baz
+netflow:
+  address: ":2055"
+  threads: 8
+logging:
+  file: "importer.log"
+  level: 1

@@ -1,0 +1,12 @@
+[Unit]
+Description=lastfluss importer
+After=postgresql.service
+
+[Service]
+ExecStart=/opt/lastfluss/importer
+WorkingDirectory=/opt/lastfluss/importer
+Restart=always
+User=lastfluss
+
+[Install]
+WantedBy=multi-user.target

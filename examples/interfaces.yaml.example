@@ -1,0 +1,9 @@
+- name: some transit provider
+  host: 1.2.3.4
+  id: 23
+  sample: 512
+
+- name: some internet exchange
+  host: 1.2.3.4
+  id: 42
+  sample: 512
